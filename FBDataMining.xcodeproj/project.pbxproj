@@ -14,6 +14,14 @@
 		426182AA1BA9458600AD5EC1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 426182A91BA9458600AD5EC1 /* Images.xcassets */; };
 		426182AD1BA9458600AD5EC1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 426182AB1BA9458600AD5EC1 /* LaunchScreen.xib */; };
 		426182B91BA9458600AD5EC1 /* FBDataMiningTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 426182B81BA9458600AD5EC1 /* FBDataMiningTests.swift */; };
+		426182C61BA946AD00AD5EC1 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 426182C21BA946AD00AD5EC1 /* Bolts.framework */; };
+		426182C71BA946AD00AD5EC1 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 426182C31BA946AD00AD5EC1 /* FBSDKCoreKit.framework */; };
+		426182C81BA946AD00AD5EC1 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 426182C41BA946AD00AD5EC1 /* FBSDKLoginKit.framework */; };
+		426182C91BA946AD00AD5EC1 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 426182C51BA946AD00AD5EC1 /* FBSDKShareKit.framework */; };
+		426182CB1BA94B7300AD5EC1 /* FBRetriveData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 426182CA1BA94B7300AD5EC1 /* FBRetriveData.swift */; };
+		426182CD1BA94C4200AD5EC1 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 426182CC1BA94C4200AD5EC1 /* User.swift */; };
+		426182CF1BA993D600AD5EC1 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 426182CE1BA993D600AD5EC1 /* SwiftyJSON.swift */; };
+		426182D21BA9A41500AD5EC1 /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 426182D11BA9A41500AD5EC1 /* DetailVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +46,14 @@
 		426182B21BA9458600AD5EC1 /* FBDataMiningTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FBDataMiningTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		426182B71BA9458600AD5EC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		426182B81BA9458600AD5EC1 /* FBDataMiningTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FBDataMiningTests.swift; sourceTree = "<group>"; };
+		426182C21BA946AD00AD5EC1 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		426182C31BA946AD00AD5EC1 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		426182C41BA946AD00AD5EC1 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		426182C51BA946AD00AD5EC1 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = "<group>"; };
+		426182CA1BA94B7300AD5EC1 /* FBRetriveData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FBRetriveData.swift; sourceTree = "<group>"; };
+		426182CC1BA94C4200AD5EC1 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		426182CE1BA993D600AD5EC1 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		426182D11BA9A41500AD5EC1 /* DetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +61,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				426182C91BA946AD00AD5EC1 /* FBSDKShareKit.framework in Frameworks */,
+				426182C61BA946AD00AD5EC1 /* Bolts.framework in Frameworks */,
+				426182C71BA946AD00AD5EC1 /* FBSDKCoreKit.framework in Frameworks */,
+				426182C81BA946AD00AD5EC1 /* FBSDKLoginKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,8 +99,14 @@
 		4261829C1BA9458600AD5EC1 /* FBDataMining */ = {
 			isa = PBXGroup;
 			children = (
+				426182C21BA946AD00AD5EC1 /* Bolts.framework */,
+				426182C31BA946AD00AD5EC1 /* FBSDKCoreKit.framework */,
+				426182C41BA946AD00AD5EC1 /* FBSDKLoginKit.framework */,
+				426182C51BA946AD00AD5EC1 /* FBSDKShareKit.framework */,
+				426182D01BA9A3EB00AD5EC1 /* Classes */,
 				4261829F1BA9458600AD5EC1 /* AppDelegate.swift */,
 				426182A41BA9458600AD5EC1 /* ViewController.swift */,
+				426182D11BA9A41500AD5EC1 /* DetailVC.swift */,
 				426182A61BA9458600AD5EC1 /* Main.storyboard */,
 				426182A91BA9458600AD5EC1 /* Images.xcassets */,
 				426182AB1BA9458600AD5EC1 /* LaunchScreen.xib */,
@@ -113,6 +139,16 @@
 				426182B71BA9458600AD5EC1 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		426182D01BA9A3EB00AD5EC1 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				426182CE1BA993D600AD5EC1 /* SwiftyJSON.swift */,
+				426182CC1BA94C4200AD5EC1 /* User.swift */,
+				426182CA1BA94B7300AD5EC1 /* FBRetriveData.swift */,
+			);
+			name = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -216,8 +252,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				426182A51BA9458600AD5EC1 /* ViewController.swift in Sources */,
+				426182CB1BA94B7300AD5EC1 /* FBRetriveData.swift in Sources */,
 				426182A01BA9458600AD5EC1 /* AppDelegate.swift in Sources */,
+				426182CF1BA993D600AD5EC1 /* SwiftyJSON.swift in Sources */,
+				426182CD1BA94C4200AD5EC1 /* User.swift in Sources */,
 				426182A31BA9458600AD5EC1 /* FBDataMining.xcdatamodeld in Sources */,
+				426182D21BA9A41500AD5EC1 /* DetailVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,9 +384,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FBDataMining",
+				);
 				INFOPLIST_FILE = FBDataMining/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -354,9 +399,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FBDataMining",
+				);
 				INFOPLIST_FILE = FBDataMining/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -413,6 +463,7 @@
 				426182BE1BA9458600AD5EC1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		426182BF1BA9458600AD5EC1 /* Build configuration list for PBXNativeTarget "FBDataMiningTests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +472,7 @@
 				426182C11BA9458600AD5EC1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

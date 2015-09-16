@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>E841F2B8-9017-4B04-9CE1-93E678C3B398</string>
+	<key>IDESourceControlProjectName</key>
+	<string>FBDataMining</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>9E6B46E06647AC72D3C74A73321AA9F57132AC2A</key>
+		<string>https://github.com/mmohsin991/FBDataMining.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>FBDataMining.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>9E6B46E06647AC72D3C74A73321AA9F57132AC2A</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/mmohsin991/FBDataMining.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>9E6B46E06647AC72D3C74A73321AA9F57132AC2A</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>9E6B46E06647AC72D3C74A73321AA9F57132AC2A</string>
+			<key>IDESourceControlWCCName</key>
+			<string>FBDataMining</string>
+		</dict>
+	</array>
+</dict>
+</plist>
