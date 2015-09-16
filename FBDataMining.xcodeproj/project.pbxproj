@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		426182A01BA9458600AD5EC1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4261829F1BA9458600AD5EC1 /* AppDelegate.swift */; };
+		426182A31BA9458600AD5EC1 /* FBDataMining.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 426182A11BA9458600AD5EC1 /* FBDataMining.xcdatamodeld */; };
+		426182A51BA9458600AD5EC1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 426182A41BA9458600AD5EC1 /* ViewController.swift */; };
+		426182A81BA9458600AD5EC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 426182A61BA9458600AD5EC1 /* Main.storyboard */; };
+		426182AA1BA9458600AD5EC1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 426182A91BA9458600AD5EC1 /* Images.xcassets */; };
+		426182AD1BA9458600AD5EC1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 426182AB1BA9458600AD5EC1 /* LaunchScreen.xib */; };
+		426182B91BA9458600AD5EC1 /* FBDataMiningTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 426182B81BA9458600AD5EC1 /* FBDataMiningTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		426182B31BA9458600AD5EC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 426182921BA9458600AD5EC1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 426182991BA9458600AD5EC1;
+			remoteInfo = FBDataMining;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4261829A1BA9458600AD5EC1 /* FBDataMining.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FBDataMining.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4261829E1BA9458600AD5EC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4261829F1BA9458600AD5EC1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		426182A21BA9458600AD5EC1 /* FBDataMining.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FBDataMining.xcdatamodel; sourceTree = "<group>"; };
+		426182A41BA9458600AD5EC1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		426182A71BA9458600AD5EC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		426182A91BA9458600AD5EC1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		426182AC1BA9458600AD5EC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		426182B21BA9458600AD5EC1 /* FBDataMiningTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FBDataMiningTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		426182B71BA9458600AD5EC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		426182B81BA9458600AD5EC1 /* FBDataMiningTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FBDataMiningTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		426182971BA9458600AD5EC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		426182AF1BA9458600AD5EC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		426182911BA9458600AD5EC1 = {
+			isa = PBXGroup;
+			children = (
+				4261829C1BA9458600AD5EC1 /* FBDataMining */,
+				426182B51BA9458600AD5EC1 /* FBDataMiningTests */,
+				4261829B1BA9458600AD5EC1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4261829B1BA9458600AD5EC1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4261829A1BA9458600AD5EC1 /* FBDataMining.app */,
+				426182B21BA9458600AD5EC1 /* FBDataMiningTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4261829C1BA9458600AD5EC1 /* FBDataMining */ = {
+			isa = PBXGroup;
+			children = (
+				4261829F1BA9458600AD5EC1 /* AppDelegate.swift */,
+				426182A41BA9458600AD5EC1 /* ViewController.swift */,
+				426182A61BA9458600AD5EC1 /* Main.storyboard */,
+				426182A91BA9458600AD5EC1 /* Images.xcassets */,
+				426182AB1BA9458600AD5EC1 /* LaunchScreen.xib */,
+				426182A11BA9458600AD5EC1 /* FBDataMining.xcdatamodeld */,
+				4261829D1BA9458600AD5EC1 /* Supporting Files */,
+			);
+			path = FBDataMining;
+			sourceTree = "<group>";
+		};
+		4261829D1BA9458600AD5EC1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4261829E1BA9458600AD5EC1 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		426182B51BA9458600AD5EC1 /* FBDataMiningTests */ = {
+			isa = PBXGroup;
+			children = (
+				426182B81BA9458600AD5EC1 /* FBDataMiningTests.swift */,
+				426182B61BA9458600AD5EC1 /* Supporting Files */,
+			);
+			path = FBDataMiningTests;
+			sourceTree = "<group>";
+		};
+		426182B61BA9458600AD5EC1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				426182B71BA9458600AD5EC1 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		426182991BA9458600AD5EC1 /* FBDataMining */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 426182BC1BA9458600AD5EC1 /* Build configuration list for PBXNativeTarget "FBDataMining" */;
+			buildPhases = (
+				426182961BA9458600AD5EC1 /* Sources */,
+				426182971BA9458600AD5EC1 /* Frameworks */,
+				426182981BA9458600AD5EC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FBDataMining;
+			productName = FBDataMining;
+			productReference = 4261829A1BA9458600AD5EC1 /* FBDataMining.app */;
+			productType = "com.apple.product-type.application";
+		};
+		426182B11BA9458600AD5EC1 /* FBDataMiningTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 426182BF1BA9458600AD5EC1 /* Build configuration list for PBXNativeTarget "FBDataMiningTests" */;
+			buildPhases = (
+				426182AE1BA9458600AD5EC1 /* Sources */,
+				426182AF1BA9458600AD5EC1 /* Frameworks */,
+				426182B01BA9458600AD5EC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				426182B41BA9458600AD5EC1 /* PBXTargetDependency */,
+			);
+			name = FBDataMiningTests;
+			productName = FBDataMiningTests;
+			productReference = 426182B21BA9458600AD5EC1 /* FBDataMiningTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		426182921BA9458600AD5EC1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = Mohsin;
+				TargetAttributes = {
+					426182991BA9458600AD5EC1 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					426182B11BA9458600AD5EC1 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 426182991BA9458600AD5EC1;
+					};
+				};
+			};
+			buildConfigurationList = 426182951BA9458600AD5EC1 /* Build configuration list for PBXProject "FBDataMining" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 426182911BA9458600AD5EC1;
+			productRefGroup = 4261829B1BA9458600AD5EC1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				426182991BA9458600AD5EC1 /* FBDataMining */,
+				426182B11BA9458600AD5EC1 /* FBDataMiningTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		426182981BA9458600AD5EC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				426182A81BA9458600AD5EC1 /* Main.storyboard in Resources */,
+				426182AD1BA9458600AD5EC1 /* LaunchScreen.xib in Resources */,
+				426182AA1BA9458600AD5EC1 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		426182B01BA9458600AD5EC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		426182961BA9458600AD5EC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				426182A51BA9458600AD5EC1 /* ViewController.swift in Sources */,
+				426182A01BA9458600AD5EC1 /* AppDelegate.swift in Sources */,
+				426182A31BA9458600AD5EC1 /* FBDataMining.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		426182AE1BA9458600AD5EC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				426182B91BA9458600AD5EC1 /* FBDataMiningTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		426182B41BA9458600AD5EC1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 426182991BA9458600AD5EC1 /* FBDataMining */;
+			targetProxy = 426182B31BA9458600AD5EC1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		426182A61BA9458600AD5EC1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				426182A71BA9458600AD5EC1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		426182AB1BA9458600AD5EC1 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				426182AC1BA9458600AD5EC1 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		426182BA1BA9458600AD5EC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		426182BB1BA9458600AD5EC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		426182BD1BA9458600AD5EC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FBDataMining/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		426182BE1BA9458600AD5EC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FBDataMining/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		426182C01BA9458600AD5EC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FBDataMiningTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FBDataMining.app/FBDataMining";
+			};
+			name = Debug;
+		};
+		426182C11BA9458600AD5EC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FBDataMiningTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FBDataMining.app/FBDataMining";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		426182951BA9458600AD5EC1 /* Build configuration list for PBXProject "FBDataMining" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				426182BA1BA9458600AD5EC1 /* Debug */,
+				426182BB1BA9458600AD5EC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		426182BC1BA9458600AD5EC1 /* Build configuration list for PBXNativeTarget "FBDataMining" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				426182BD1BA9458600AD5EC1 /* Debug */,
+				426182BE1BA9458600AD5EC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		426182BF1BA9458600AD5EC1 /* Build configuration list for PBXNativeTarget "FBDataMiningTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				426182C01BA9458600AD5EC1 /* Debug */,
+				426182C11BA9458600AD5EC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		426182A11BA9458600AD5EC1 /* FBDataMining.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				426182A21BA9458600AD5EC1 /* FBDataMining.xcdatamodel */,
+			);
+			currentVersion = 426182A21BA9458600AD5EC1 /* FBDataMining.xcdatamodel */;
+			path = FBDataMining.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 426182921BA9458600AD5EC1 /* Project object */;
+}
