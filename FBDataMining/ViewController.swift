@@ -27,8 +27,11 @@ class ViewController: UIViewController, FBSDKLoginButtonDelegate, UITableViewDat
     var likesPages = [(String,String,String)]()
     
     
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        
         // Do any additional setup after loading the view, typically from a nib.
         
         self.logingBtn = FBSDKLoginButton()
@@ -171,6 +174,10 @@ class ViewController: UIViewController, FBSDKLoginButtonDelegate, UITableViewDat
         self.tableVIew.reloadData()
         self.activityIndicator.stopAnimating()
     }
+    
+    
+    
+    
     
     
     
