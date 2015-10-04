@@ -203,5 +203,31 @@ class ViewController: UIViewController, FBSDKLoginButtonDelegate, UITableViewDat
 
     }
     
+    
+    
+    
+    @IBAction func btnFBLoginPressed(sender: AnyObject) {
+        var fbLoginManager : FBSDKLoginManager = FBSDKLoginManager()
+        fbLoginManager .logInWithReadPermissions(["email"], handler: { (result, error) -> Void in
+            if (error == nil){
+                var fbloginresult : FBSDKLoginManagerLoginResult = result
+                if(fbloginresult.grantedPermissions.contains("email"))
+                {
+                    self.getFBUserData()
+//                    fbLoginManager.logOut()
+                }
+            }
+        })
+    }
+    
+    func getFBUserData(){
+        if((FBSDKAccessToken.currentAccessToken()) != nil){
+            FBSDKGraphRequest(graphPath: "me", parameters: ["fields": "id, name, first_name, last_name, picture.type(large), email"]).startWithCompletionHandler({ (connection, result, error) -> Void in
+                if (error == nil){
+                    println(result)
+                }
+            })
+        }
+    }
 }
 
